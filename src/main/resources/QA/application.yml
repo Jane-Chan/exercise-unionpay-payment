@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://121.4.87.70:3306/paymentcenterdb?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+    service:
+      port: 8080
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.intergration.paymentcenter.unionpaypayment.entity
+
+
+sysConstant:
+  ipAdress: 120.0.0.1
