@@ -5,7 +5,7 @@ import org.apache.commons.lang3.time.DateFormatUtils;
 import java.util.Date;
 /**
  *
- * @Title:  订单号生成
+ * @Title:  订单生成
  * @ClassName:OrderIdUtils.java
  * @Description:
  *
