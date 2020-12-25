@@ -9,9 +9,6 @@ import java.util.Date;
  * @ClassName:OrderIdUtils.java
  * @Description:
  *
- * @Copyright 2016-2017  - Powered By 研发中心
- * @author: 王延飞
- * @date:2018年3月22日 下午7:43:30
  * @version V1.0
  */
 public class OrderIdUtils {
