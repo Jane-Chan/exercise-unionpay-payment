@@ -49,8 +49,7 @@ public class OrderIdUtils {
             this.sequence = 0;
         }
         this.lastTimestamp= timestamp;
-        StringBuilder sb=new StringBuilder(time).append(machineId).append(leftPad(sequence,4));
-        return sb.toString();
+        return time + machineId + leftPad(sequence, 4);
     }
 
     /**
